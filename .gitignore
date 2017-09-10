@@ -1,6 +1,11 @@
+# Exclude everything except .gitignore & build settings
 /*
-
 !.gitignore
 !build.gradle
 !settings.gradle
-!rw*/
+
+# Exclude everything in directories start with 'rw' except sources directory and build config
+/rw*/*
+!/rw*/
+!/rw*/src
+!/rw*/build.gradle
