@@ -1,4 +1,4 @@
-package com.rwapp.rwcore.database_management;
+package com.rwapp.rwcore.dbmanagement;
 
 public abstract class Entity {
     private long id;

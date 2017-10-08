@@ -1,6 +1,6 @@
 package com.rwapp.rwcore.entity;
 
-import com.rwapp.rwcore.database_management.Entity;
+import com.rwapp.rwcore.dbmanagement.Entity;
 
 import java.time.LocalTime;
 
